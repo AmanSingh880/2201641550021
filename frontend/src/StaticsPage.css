@@ -1,0 +1,95 @@
+.stats-container {
+  padding: 2rem;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.stats-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.loading-message,
+.info-message {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+.table-wrapper {
+  overflow-x: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+.stats-table th {
+  padding: 16px;
+  background-color: #f7fafc; 
+  border-bottom: 2px solid #e2e8f0;
+  text-align: left;
+  font-weight: 600;
+  color: #4a5568;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+.stats-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+  vertical-align: middle;
+}
+
+.stats-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.stats-table tbody tr:hover {
+  background-color: #fdfdfd;
+}
+
+.stats-table tbody tr:last-child td {
+  border-bottom: none; 
+}
+
+.stats-table a {
+  color: #27ae60;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.stats-table a:hover {
+  text-decoration: underline;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 16px; 
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-active {
+  background-color: #e6f7eb; 
+  color: #27ae60; 
+}
+
+.status-expired {
+  background-color: #f1f1f1; 
+  color: #777; 
+}
+

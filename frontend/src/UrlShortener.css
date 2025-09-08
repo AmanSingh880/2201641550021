@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;       
+  background: #f4f6f9;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+form {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+input:focus {
+  border-color: #49eb25;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  background: #3feb25;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #27ae60;
+}
+
+.result {
+  margin-top: 1.5rem;
+  background: #ecfdf5;
+  border: 1px solid #27ae60;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #065f46;
+  text-align: left;
+  width: 100%;
+  max-width: 420px;
+}
+
+.result a {
+  color: #27ae60;
+  text-decoration: underline;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #dc2626;
+  font-weight: 600;
+}
+.result-card {
+  margin-top: 2rem; 
+  padding: 1.5rem; 
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0; 
+  border-radius: 12px; 
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); 
+  transition: transform 0.2s ease-in-out; 
+}
+
+.result-card:hover {
+  transform: translateY(-3px);
+}
+
+.result-title {
+  color: #15803d; 
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0; 
+}
+
+.result-link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.short-url-link {
+  color: #27ae60; 
+  font-weight: 600;
+  text-decoration: none; 
+  transition: color 0.2s ease;
+}
+
+.short-url-link:hover {
+  color: #229954;
+  text-decoration: underline;
+}
+.copy-btn {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.copy-btn:hover {
+  background-color: #dcedc8;
+}
+
+.expiry-info {
+  color: #555; 
+  font-size: 0.9rem;
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "shortUrl": "http://localhost:5000/a1b1c2",
+    "expiresAt": "2025-09-08T10:16:48.165Z"
+  },
+  {
+    "shortUrl": "http://localhost:5000/fdghfgjh",
+    "expiresAt": "2025-09-08T13:50:39.621Z"
+  },
+  {
+    "shortUrl": "http://localhost:5000/hfgjk",
+    "expiresAt": "2025-09-08T09:54:38.114Z"
+  },
+  {
+    "shortUrl": "http://localhost:5000/asdf",
+    "expiresAt": "2025-09-08T10:16:13.786Z"
+  },
+  {
+    "shortUrl": "http://localhost:5000/sdfgh",
+    "expiresAt": "2025-09-10T00:42:04.097Z"
+  }
+]

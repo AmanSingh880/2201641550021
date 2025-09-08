@@ -1,4 +1,4 @@
-Name: Aman Singh
+
 Roll no.: 2201641550021
 email:amansinghcse01@gmail.com
 
